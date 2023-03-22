@@ -20,4 +20,4 @@ Note: You will need to have Node.js and npm or yarn installed on your machine to
 ## Support
 
 For further support, please join our [Discord server](https://discord.gg/compendium-pendax-846967032288509953) or email us at support@compendium.fi.
-````
+
