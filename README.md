@@ -12,6 +12,7 @@ This is an open source implementation of the Solana Openbook provided by the Com
 NEXT_PUBLIC_SOLANA_RPC_ENDPOINT="place your solana rpc here "
 NEXT_PUBLIC_USDT_REFERRAL="place your USDT referral address here"
 NEXT_PUBLIC_USDC_REFERRAL="place your USDC referral address here"
+NEXT_PUBLIC_DATA_FEED_ENDPOINT="place your data feed for trading view here"
 6. Run `npm run dev` or `yarn dev` to start the development server.
 
 Note: You will need to have Node.js and npm or yarn installed on your machine to run this project.

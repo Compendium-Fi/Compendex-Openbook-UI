@@ -53,7 +53,7 @@ const TVChartContainer = () => {
     containerId: "tv_chart_container",
     libraryPath: "/static/charting_library/",
   
-    datafeedUrl: "https://tradingview.compendex.xyz",
+    datafeedUrl: process.env.NEXT_PUBLIC_DATA_FEED_ENDPOINT,
     chartsStorageApiVersion: "1.1",
     clientId: "tradingview.com",
     userId: "public_user_id",
