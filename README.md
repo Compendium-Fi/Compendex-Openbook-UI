@@ -1,6 +1,6 @@
 # Compendex-Openbook-UI
 
-This is an open source implementation of the SOLAA Openbook provided by the Compendex Team.
+This is an open source implementation of the Solana Openbook provided by the Compendex Team.
 
 ## How to run the project
 
@@ -13,7 +13,7 @@ This is an open source implementation of the SOLAA Openbook provided by the Comp
 ````NEXT_PUBLIC_SOLANA_RPC_ENDPOINT="place your solana rpc here "
 NEXT_PUBLIC_USDT_REFERRAL="place your USDT referra address here"
 NEXT_PUBLIC_USDC_REFERRAL="place your USDC referra address here"```
-6. Run `npm run dev` or `yarn dev` to start the development server.
+6. Run `npm run dev` or `yarn dev` to start the development server.````
 
 Note: You will need to have Node.js and npm or yarn installed on your machine to run this project.
 
