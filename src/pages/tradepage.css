@@ -1,0 +1,59 @@
+@media screen and (max-width: 1850px) {
+  .tradePage {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 5em !important;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .tradePage {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10em !important;
+  }
+}
+@media screen and (max-width: 1650) {
+  .order-book {
+    height: 495px !important;
+    overflow: hidden !important;
+    min-width: none !important;
+    box-sizing: border-box !important;
+    background-color: rgb(36, 39, 49) !important;
+    width: 100% !important;
+    border-radius: 15px !important;
+  }
+}
+.ant-col {
+  color: #fff !important;
+}
+.add-btn {
+  border-color: rgb(99, 102, 241) !important;
+  border-width: 2px !important;
+  border: solid !important;
+  width: 25px !important;
+  height: 25px !important;
+}
+.header-label {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(99, 102, 241);
+  line-height: 1;
+}
+.ant-tabs-dropdown-menu {
+  background-color: red !important;
+}
+.ant-tabs-dropdown-menu-vertical {
+  background-color: red !important;
+}
+.ant-tabs-dropdown {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: 5px !important;
+}

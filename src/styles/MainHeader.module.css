@@ -1,0 +1,14 @@
+.header-container {
+    background: rgb(8, 15, 25);
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(52, 66, 87, 0.6);
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 10px !important;
+    height: 65px !important;
+    z-index: 1511;
+    position: fixed;
+    width: 100%;
+  }

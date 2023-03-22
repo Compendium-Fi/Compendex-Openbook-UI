@@ -1,0 +1,98 @@
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important ;
+  text-shadow: 0 0 0.25px currentColor;
+}
+.ant-tabs-tab {
+  margin-bottom: 10px !important;
+  font-weight: bold !important;
+}
+.ant-tabs-tab-active {
+  /* background: #191b20 !important; */
+  border-radius: 10px !important;
+  padding: 8px 16px;
+  background: rgb(50, 205, 153) none repeat scroll 0% 0%;
+
+  color: #fff !important;
+  border-radius: 5px !important;
+}
+.ant-tabs-tab {
+  width: 251px !important ;
+  height: 45px !important;
+  text-align: center !important;
+  display: flex;
+  justify-content: center !important;
+  /* color: #000 !important; */
+  border-color: transparent !important;
+}
+.ant-tabs-ink-bar {
+  height: 5px;
+  background: none !important;
+}
+/* div {
+  color: #fff;
+} */
+@media screen and (max-width: 1849px) {
+  .info-table {
+    scrollbar-width: none !important;
+  }
+  .trade-info {
+    /* margin-top: -3em !important; */
+  }
+}
+@media screen and (min-width: 1886px) and (max-width: 1920px) {
+  .info-table {
+    scrollbar-width: none !important;
+    /* margin-top: -8em !important; */
+  }
+}
+@media screen and (min-width: 1921px) {
+  .info-table {
+    scrollbar-width: none !important;
+  }
+}
+.trade-info {
+  /* margin-top: 5em; */
+}
+@media screen and (min-width: 1770px) {
+  .trade-info {
+    width: 64% !important;
+    scrollbar-width: none !important;
+    scrollbar-color: transaprent !important;
+  }
+}
+
+@media screen and (max-width: 1769px) {
+  .trade-info {
+    width: 100% !important;
+    scrollbar-width: none !important;
+    scrollbar-color: transaprent !important;
+  }
+}
+.info-table::-webkit-scrollbar {
+  display: none !important;
+  background-color: transparent !important;
+}
+
+
+.ant-table table {
+  background: transparent !important ;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+  border-color: transparent !important;
+  border: none !important;
+}
+.ant-input::placeholder {
+  /* color: #181818 !important; */
+  font-weight: lighter !important;
+}
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-bottom: none !important;
+  content: "";
+}

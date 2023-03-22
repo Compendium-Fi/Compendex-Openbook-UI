@@ -1,0 +1,59 @@
+.ant-table table {
+  width: 100%;
+  text-align: left;
+  border-radius: 2px 2px 0 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: transparent !important;
+}
+.ant-table-wrapper {
+  background: transparent !important;
+
+  min-width: 100% !important;
+  /* height: 463px !important; */
+  /* padding-bottom: 10em; */
+}
+
+.ant-table-thead > tr > th {
+  /* background: transparent !important; */
+  /* color: #000 !important; */
+}
+
+.ant-table-tbody > tr > td {
+  background: transparent !important;
+  /* color: #000 !important; */
+}
+.ant-typography {
+  /* color: #000 !important; */
+}
+.ant-table-container {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  /* margin-top: 20px; */
+  /* margin-left: -55px !important; */
+}
+.ant-table {
+  background-color: transparent !important;
+}
+.ant-table-tbody > tr > td {
+  background: transparent !important;
+  border-bottom: solid 1px rgba(12, 12, 12, 0.2) !important;
+}
+.active-table {
+  margin-left: -55px !important;
+}
+.ant-modal-title {
+  /* color: #000 !important; */
+}
+.ant-btn-ghost {
+  /* color: rgba(12, 12, 12, 0.7) !important; */
+}
+.ant-modal-header {
+  /* border-bottom: rgba(12, 12, 12, 0.8) !important; */
+}
+.ant-btn > span {
+  /* color: #000 !important; */
+}
+.ant-table-pagination.ant-pagination {
+  margin: 20px 15px !important;
+}

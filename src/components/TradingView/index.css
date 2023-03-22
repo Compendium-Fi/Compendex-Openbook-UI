@@ -1,0 +1,40 @@
+@media screen and (min-width: 1770px) {
+  .TVChartContainer {
+    width: 100% !important;
+    height: 520px !important;
+    /* border-width: 2px !important;
+    border-color: rgba(51, 66, 87, 0.6) !important;
+    border-radius: 5px !important;
+    box-shadow: rgb(15 23 42 / 30%) 0px 4px 16px 2px !important; */
+  }
+}
+@media screen and (max-width: 1770px) {
+  .TVChartContainer {
+    /* margin: 5px !important; */
+    width: 100% !important;
+    height: 520px !important;
+    /* height: 495px !important;
+    border-width: 2px !important;
+    border-color: rgba(51, 66, 87, 0.6) !important;
+    border-radius: 5px !important;
+    box-shadow: rgb(15 23 42 / 30%) 0px 4px 16px 2px !important; */
+  }
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: transparent;
+  border: none !important;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+iframe {
+  border-radius: 5px !important;
+  height: 570px;
+}
+.tradingview-widget-container {
+  position: relative;
+  background-color: red !important;
+}
+.header__logo {
+  margin-right: 0px !important;
+}

@@ -1,0 +1,284 @@
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: transparent;
+  border: none !important;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border: none !important;
+}
+
+select option {
+  background: rgba(25, 27, 32, 0.5);
+  border: none !important;
+}
+select option:hover {
+  background-color: red !important;
+}
+select {
+  border: none !important;
+  outline: none !important;
+}
+input {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+  font-weight: bold;
+}
+.input-row {
+  width: 90% !important;
+  display: flex;
+  margin-left: 1.1em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.input-row span {
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: right;
+
+  font-weight: bold;
+  position: absolute;
+  color: #4fbf67;
+  right: 0;
+  padding-right: 5%;
+}
+.srm-col {
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: right;
+
+  font-weight: bold;
+  position: absolute;
+  color: #ff9f38 !important;
+
+  right: 0;
+}
+
+.input-col {
+  border: 2px solid #0d39eb;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.buy-btn {
+  background: #355dff !important;
+  border-radius: 12px !important;
+  border: none !important;
+}
+
+.market-select {
+  cursor: pointer !important;
+}
+body {
+  /* color: rgb(17, 20, 45) !important; */
+}
+.ant-input-affix-wrapper {
+  border: none !important ;
+  min-height: 40px;
+}
+.ant-input-affix-wrapper:focus {
+  border-color: transparent !important ;
+}
+.ant-input-group-addon {
+  background-color: transparent !important;
+  border: none !important;
+}
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  outline: 0;
+  box-shadow: 0 0 0 1px transparent !important;
+  border-radius: 12px;
+}
+.active-sell {
+  border-radius: 5px !important;
+  background-color: rgba(19, 34, 53, 0.5) !important;
+
+  min-width: 78px !important;
+  height: 35px !important;
+  width: 100% !important;
+}
+.main-trade-btn {
+  padding: 0px;
+  cursor: inherit;
+  background: rgb(28, 24, 46) none repeat scroll 0% 0% !important;
+  border: medium none;
+  text-align: center;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.33) 1px 1px 2px;
+  line-height: 1;
+  border-radius: 15px;
+
+  transition: color 300ms ease 0s, border-color 300ms ease 0s,
+    background 300ms ease 0s;
+  text-decoration: none;
+  font-style: normal;
+  box-shadow: none;
+}
+.sell-trade-btn {
+  padding: 0px;
+  cursor: inherit;
+  background: rgb(221, 80, 151) none repeat scroll 0% 0% !important;
+  border: medium none;
+  text-align: center;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: rgb(221, 80, 151) 1px 1px 2px;
+  line-height: 1;
+  border-radius: 5px;
+
+  transition: color 300ms ease 0s, border-color 300ms ease 0s,
+    background 300ms ease 0s;
+  text-decoration: none;
+  font-style: normal;
+  box-shadow: none;
+}
+.buy-trade-btn {
+  padding: 0px;
+  cursor: inherit;
+  background: rgb(50, 205, 153) none repeat scroll 0% 0% !important;
+  border: medium none;
+  text-align: center;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: rgb(50, 205, 153) 1px 1px 2px;
+  line-height: 1;
+  border-radius: 5px;
+
+  transition: color 300ms ease 0s, border-color 300ms ease 0s,
+    background 300ms ease 0s;
+  text-decoration: none;
+  font-style: normal;
+  box-shadow: none;
+}
+.disabled-trade-btn {
+  padding: 0px;
+  cursor: inherit;
+  background-color: rgb(241, 241, 241) !important;
+  border: medium none;
+  text-align: center;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+
+  line-height: 1;
+  border-radius: 5px;
+
+  transition: color 300ms ease 0s, border-color 300ms ease 0s,
+    background 300ms ease 0s;
+  text-decoration: none;
+  font-style: normal;
+  box-shadow: none;
+  color: #000 !important;
+}
+
+.active-sell-buy {
+  padding: 0px !important;
+  cursor: inherit !important;
+  border-radius: 5px !important;
+  background-color: transparent !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: rgba(50, 205, 153, 1) !important;
+  height: 35px !important;
+
+  text-align: center !important;
+  border: 1px solid rgba(50, 205, 153, 1) !important;
+  background-color: rgba(19, 34, 53, 0.5) !important;
+  box-sizing: border-box !important;
+
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+
+  width: 100% !important;
+
+  transition: color 300ms ease 0s, border-color 300ms ease 0s,
+    background 300ms ease 0s !important;
+  text-decoration: none !important;
+  font-style: normal !important;
+  box-shadow: none !important;
+  height: 35px !important;
+  margin-right: 5px !important;
+}
+.active-sell-sell {
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: rgba(221, 80, 151, 1) !important;
+  box-sizing: border-box !important;
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  width: 100% !important;
+  transition: color 300ms ease 0s, border-color 300ms ease 0s,
+    background 300ms ease 0s !important;
+  text-decoration: none !important;
+  font-style: normal !important;
+  box-shadow: none !important;
+  height: 35px !important;
+  margin-right: 5px !important;
+  border: 1px solid rgba(221, 80, 151, 1) !important;
+  background-color: rgba(19, 34, 53, 0.5) !important;
+}
+
+.ant-divider-horizontal.ant-divider-with-text::before,
+.ant-divider-horizontal.ant-divider-with-text::after {
+  position: relative;
+  top: 50%;
+  width: 50%;
+  border-top: 1px solid transparent;
+  border-top-color: inherit;
+  border-bottom: 0;
+  transform: translateY(10%) !important;
+  content: "";
+}
+.remove-padding {
+  margin-top: -16px !important;
+  padding: 2px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.ant-slider-step {
+  position: absolute !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  border: solid 1px rgb(170, 170, 170) !important;
+  height: 8px !important;
+}
+.ant-slider-handle {
+  border-radius: 5px !important;
+  margin-top: -2px !important;
+}
+.ant-btn {
+  /* border: none !important; */
+}
