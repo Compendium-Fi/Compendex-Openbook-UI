@@ -1,6 +1,6 @@
 # Compendex-Openbook-UI
 
-This is an open source implementation of the SOLAA Openbook provided by the Compendex Team.
+This is an open source implementation of the Solana Openbook provided by the Compendex Team.
 
 ## How to run the project
 
