@@ -1,4 +1,4 @@
-# Compendex-Openbook-UI
+# Compendex Openbook GUI Example
 
 This is an open source implementation of the new Openbook protocol for Solana (forked from Project Serum) provided by the [Compendium](https://docs.compendium.finance) team. The purpose of this repository is to provide a new stepping stone for the greater community to further build new tools and expand on. A version of this interface is publicly available for use and integrated into our [Compendex](https://sol.compendex.xyz) platform. Pull requests and Issue submissions are welcome and will be reviewed.
 
