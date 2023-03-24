@@ -27,14 +27,14 @@ Compendium & Compendex do not manage the OpenBook protocol nor are directly asso
 3. Run `npm ci` or `yarn` to install dependencies
 4. Copy TradingView chart library folders (charting_library,datafeed) into public/static folder
 5. Create an `.env.local` file in the project directory following this example:
-
-- NEXT_PUBLIC_SOLANA_RPC_ENDPOINT="place your solana rpc here "
-- NEXT_PUBLIC_USDT_REFERRAL="place your USDT referral address here"
-- NEXT_PUBLIC_USDC_REFERRAL="place your USDC referral address here"
-- NEXT_PUBLIC_DATA_FEED_ENDPOINT="place your data feed for trading view here"
-  NEXT_PUBLIC_WEBSITE_TITLE="Compendex Open Book Dex"
-  NEXT_PUBLIC_DISPLAY_TRADING_VIEW=1 #One to display TV by default 2 Displays simple history chart 
-
+```
+NEXT_PUBLIC_SOLANA_RPC_ENDPOINT="place your solana rpc here "
+NEXT_PUBLIC_USDT_REFERRAL="place your USDT referral address here"
+NEXT_PUBLIC_USDC_REFERRAL="place your USDC referral address here"
+NEXT_PUBLIC_DATA_FEED_ENDPOINT="place your data feed for trading view here"
+NEXT_PUBLIC_WEBSITE_TITLE="Compendex Open Book Dex"
+NEXT_PUBLIC_DISPLAY_TRADING_VIEW=1 //One to display TV by default, 2 Displays simple history chart 
+```
 6. Run `npm run dev` or `yarn dev` to start the development server.
 
 Note: You will need to have Node.js and npm or yarn installed on your machine to run this project.
@@ -43,7 +43,7 @@ Note: You will need to have Node.js and npm or yarn installed on your machine to
 
 If you are hosting a public UI using this codebase, you can collect referral fees when your users trade through your site.
 
-To do so, set the NEXT_PUBLIC_USDT_REFERRAL and NEXT_PUBLIC_USDC_REFERRAL environment variables to the addresses of your USDT and USDC SPL token accounts.
+To do so, set the `NEXT_PUBLIC_USDT_REFERRAL` and `NEXT_PUBLIC_USDC_REFERRAL` environment variables to the addresses of your USDT and USDC SPL token accounts.
 
 ## TradingView Chart Data Insertion
 
@@ -57,7 +57,7 @@ If you are unable to retrieve and host your own TradingView data feeds we may be
 
 ### CoinGecko "Simple Charts" Fallback
 
-The example user interface also includes the [CoinGecko API](https://www.coingecko.com/en/api) to provide a backup pricing chart for every supported market. Users can select the "Simple Chart" option to display a line area graph. The deployer can easily make this the default if they wish to substitute it for TradingView. The deployer can also upgrade the CoinGecko API from the free version to a PRO version in order to handle more frequent calls and traffic if needed.
+The example user interface also includes the [CoinGecko API](https://www.coingecko.com/en/api) to provide a backup pricing chart for every supported market. Users can select the "Simple Chart" option to display a line area graph. The deployer can easily make this the default if they wish to substitute it for TradingView by setting `NEXT_PUBLIC_DISPLAY_TRADING_VIEW=2` in the `ENV` file. The deployer can also upgrade the CoinGecko API from the free version to a PRO version in order to handle more frequent calls and traffic if needed.
 
 ![image](https://user-images.githubusercontent.com/36686278/227062603-fce438ad-d57b-42b9-96c5-f595bec787e0.png)
 
