@@ -684,7 +684,7 @@ const DeprecatedMarketsPage = ({ switchToLiveMarkets }: { switchToLiveMarkets: a
 
 const RenderNormal = ({ onChangeOrderRef, onPrice, onSize, screenWidth }: { onChangeOrderRef: any, onPrice: any, onSize: any, screenWidth: any }) => {
     const [chartValue, setChartValue] = useState("1");
-    const [tvChartValue, setTVChartValue] = useState("1");
+    const [tvChartValue, setTVChartValue] = useState(process.env.NEXT_PUBLIC_DISPLAY_TRADING_VIEW);
     const [orderValue, setOrderValue] = useState("1");
     const { splTokenList } = useTokenList();
 
@@ -779,10 +779,12 @@ const RenderNormal = ({ onChangeOrderRef, onPrice, onSize, screenWidth }: { onCh
                                     <Tab label={`Simple Chart`} value="2" />
                                 </TabList>
                             </Box>
+                            {
+                                Number(process.env.NEXT_PUBLIC_DISPLAY_TRADING_VIEW) == 1 && <TabPanel value="1" className={classes.root}>
+                                    <TVChartContainer />
+                                </TabPanel>
+                            }
 
-                            <TabPanel value="1" className={classes.root}>
-                                <TVChartContainer />
-                            </TabPanel>
                             <TabPanel value="2" className={classes.root}>
                                 <TradeHistoryChart
                                     coingeckoId={selectedFirstTokenInfo.tokenId}
@@ -884,7 +886,7 @@ const RenderNormal = ({ onChangeOrderRef, onPrice, onSize, screenWidth }: { onCh
 };
 const RenderMedium = ({ onChangeOrderRef, onPrice, onSize, screenWidth }: { onChangeOrderRef: any, onPrice: any, onSize: any, screenWidth: any }) => {
     const [chartValue, setChartValue] = useState("1");
-    const [tvChartValue, setTVChartValue] = useState("1");
+    const [tvChartValue, setTVChartValue] = useState(process.env.NEXT_PUBLIC_DISPLAY_TRADING_VIEW);
     const [orderValue, setOrderValue] = useState("1");
     const { splTokenList } = useTokenList();
     // const history = useHistory();
@@ -1108,7 +1110,7 @@ const RenderMedium = ({ onChangeOrderRef, onPrice, onSize, screenWidth }: { onCh
 
 const RenderSmall = ({ onChangeOrderRef, onPrice, onSize, screenWidth }: { onChangeOrderRef: any, onPrice: any, onSize: any, screenWidth: any }) => {
     const [chartValue, setChartValue] = useState("1");
-    const [tvChartValue, setTVChartValue] = useState("1");
+       const [tvChartValue, setTVChartValue] = useState(process.env.NEXT_PUBLIC_DISPLAY_TRADING_VIEW);
 
     const { splTokenList } = useTokenList();
 

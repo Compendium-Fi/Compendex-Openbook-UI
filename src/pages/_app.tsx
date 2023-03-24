@@ -15,6 +15,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <MainLayout>
         <Head>
           <script src="/static/datafeeds/udf/dist/bundle.js" />
+          <link rel="shortcut icon" href="/static/imgs/favicon.ico" />
+          <title>{process.env.NEXT_PUBLIC_WEBSITE_TITLE}</title>
         </Head>
         <GlobalStyle />
         <MainHeader /> <Component {...pageProps} />
